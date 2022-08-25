@@ -1,7 +1,7 @@
 //import 'package:deaf_final/deaf_home.dart';
 //import 'package:deaf_final/main.dart';
 import 'package:flutter/material.dart';
-import 'package:lmp/deaf/fifth_dupe.dart';
+import 'fifth_dupe.dart';
 
 class SpeechTextSubmit extends StatelessWidget {
   final String SpeechText;
