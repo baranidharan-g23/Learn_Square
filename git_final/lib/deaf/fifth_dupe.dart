@@ -9,12 +9,12 @@ import 'speech.dart';
 
 class deaff  extends StatelessWidget {
   static const routeName = 'fifth_page';
-  const deaff({Key key}) : super(key: key);
+  const deaff({Key? key}) : super(key: key);
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Learn Square',
-      home: const MyHomePage(title: 'DEAF'),
+      home: MyHomePage(title: 'DEAF'),
       routes: {
         Deaf.routeName: (_) => Deaf()
       },
@@ -23,7 +23,7 @@ class deaff  extends StatelessWidget {
 }
 
 class MyHomePage extends StatefulWidget {
-  const MyHomePage({Key key,this.title}) : super(key: key);
+  const MyHomePage({Key? key,required this.title}) : super(key: key);
   final String title;
 
   @override
