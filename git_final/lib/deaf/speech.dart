@@ -4,14 +4,14 @@ import 'package:avatar_glow/avatar_glow.dart';
 import './speechTextSubmit.dart';
 
 class STT extends StatefulWidget {
-  const STT({Key key}) : super(key: key);
+  const STT({key}) : super(key: key);
 
   @override
   State<STT> createState() => _STT();
 }
 
 class _STT extends State<STT> {
-  stt.SpeechToText _speech;
+  late stt.SpeechToText _speech;
   bool _isListening = false;
   String _textSpeech = "Press the button and start speaking";
   int buttonPressedCount = 0;
